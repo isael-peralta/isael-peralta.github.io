@@ -1,0 +1,33 @@
+{
+    "name": "mi-proyecto",
+    "version": "1.0.0",
+    "description": "Un proyecto de ejemplo para demostrar el uso de package.json",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "test": "jest",
+      "build": "webpack --config webpack.config.js"
+    },
+    "keywords": [
+      "ejemplo",
+      "nodejs",
+      "javascript"
+    ],
+    "author": "isael <isaelperaltajimenez124@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^7.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20",
+      "jest": "^29.0.0",
+      "webpack": "^5.75.0",
+      "webpack-cli": "^5.0.0"
+    },
+    "engines": {
+      "node": ">=16.0.0",
+      "npm": ">=8.0.0"
+    }
+  }
